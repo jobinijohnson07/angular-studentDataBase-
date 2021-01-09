@@ -1,0 +1,5 @@
+.#{$fa-css-prefix}-navicon:before,
+.#{$fa-css-prefix}-reorder:before,
+.#{$fa-css-prefix}-bars:before {
+  content: $fa-var-bars;
+}

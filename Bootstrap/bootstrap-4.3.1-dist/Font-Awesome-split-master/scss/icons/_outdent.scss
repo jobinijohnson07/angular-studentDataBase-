@@ -1,0 +1,4 @@
+.#{$fa-css-prefix}-dedent:before,
+.#{$fa-css-prefix}-outdent:before {
+  content: $fa-var-outdent;
+}

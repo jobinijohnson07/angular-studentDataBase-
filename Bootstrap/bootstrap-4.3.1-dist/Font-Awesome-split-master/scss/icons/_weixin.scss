@@ -1,0 +1,4 @@
+.#{$fa-css-prefix}-wechat:before,
+.#{$fa-css-prefix}-weixin:before {
+  content: $fa-var-weixin;
+}

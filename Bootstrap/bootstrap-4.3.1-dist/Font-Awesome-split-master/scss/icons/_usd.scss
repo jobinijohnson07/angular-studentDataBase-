@@ -1,0 +1,4 @@
+.#{$fa-css-prefix}-dollar:before,
+.#{$fa-css-prefix}-usd:before {
+  content: $fa-var-usd;
+}

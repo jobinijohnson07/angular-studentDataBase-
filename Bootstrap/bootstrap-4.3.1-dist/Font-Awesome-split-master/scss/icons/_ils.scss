@@ -1,0 +1,5 @@
+.#{$fa-css-prefix}-shekel:before,
+.#{$fa-css-prefix}-sheqel:before,
+.#{$fa-css-prefix}-ils:before {
+  content: $fa-var-ils;
+}

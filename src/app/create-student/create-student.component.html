@@ -1,0 +1,48 @@
+<app-navbar></app-navbar>
+        <div style="padding: 15px"></div>
+
+<div class="container">
+        <!-- <app-navbar></app-navbar>
+        <div style="padding: 15px"></div> -->
+    <div class="title">
+        <span>Create Student</span>
+    </div>
+    <div class="card custom-card">
+        <div class="row">
+            <div class="col">
+                Student Name <br>
+                <input type="text" [(ngModel)]="studentName" class="rounded border border-primary custom-input " placeholder="Enter Student Name ">
+            </div>
+            <div class="col ">
+                Roll No <br>
+                <input type="text " [(ngModel)]="rollNo" class="rounded border border-primary custom-input " placeholder="Enter Roll No ">
+            </div>
+            <div class="col ">
+                Section <br>
+                <input type="text " [(ngModel)]="section" class="rounded border border-primary custom-input " placeholder="Enter section ">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div class="col ">
+                Internal Marks 1 <br>
+                <input type="text " [(ngModel)]=" internalMarks1" class="rounded border border-primary custom-input " placeholder="Enter Marks ">
+            </div>
+            <div class="col ">
+                Internal Marks 2 <br>
+                <input type="text " [(ngModel)]="internalMarks2" class="rounded border border-primary custom-input " placeholder="Enter Marks ">
+            </div>
+            <div class="col ">
+                Internal Marks 3 <br>
+                <input type="text " [(ngModel)]="internalMarks3" class="rounded border border-primary custom-input " placeholder="Enter Marks ">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="wrapper">
+                    <button type="submit" class="btn btn-primary custom-input" (click)="setStudent()">Add Student</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

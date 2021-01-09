@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+        <div style="padding: 15px"></div>
+        
+<div class="container-fluid">
+    <div class="title">
+        <span>Manage Student</span>
+    </div>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Student Name</th>
+            <th>Roll No</th>
+            <th>Section</th>
+            <th>Internal Marks 1</th>
+            <th>Internal Marks 2</th>
+            <th>Internal Marks 3</th>
+            <th>Verify</th>
+        </tr>
+        <tr *ngFor="let data of students">
+            <td>{{data._id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.roll_no}} </td>
+            <td>{{data.section}}</td>
+            <td>{{data.mark_1}}</td>
+            <td>{{data.mark_2}}</td>
+            <td>{{data.mark_3}}</td>
+            <td>
+                <button class="cust-btn edit" (click)="edit(data)">edit</button>
+                <button class="cust-btn delete" (click)="delete(data._id)">delete</button>
+            </td>
+        </tr>
+    </table>
+</div>

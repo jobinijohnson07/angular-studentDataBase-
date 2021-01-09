@@ -1,0 +1,5 @@
+.#{$fa-css-prefix}-star-half-empty:before,
+.#{$fa-css-prefix}-star-half-full:before,
+.#{$fa-css-prefix}-star-half-o:before {
+  content: $fa-var-star-half-o;
+}

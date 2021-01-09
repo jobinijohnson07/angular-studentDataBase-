@@ -1,0 +1,5 @@
+.#{$fa-css-prefix}-institution:before,
+.#{$fa-css-prefix}-bank:before,
+.#{$fa-css-prefix}-university:before {
+  content: $fa-var-university;
+}

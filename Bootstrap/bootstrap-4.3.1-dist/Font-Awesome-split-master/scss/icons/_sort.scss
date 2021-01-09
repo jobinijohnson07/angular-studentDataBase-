@@ -1,0 +1,4 @@
+.#{$fa-css-prefix}-unsorted:before,
+.#{$fa-css-prefix}-sort:before {
+  content: $fa-var-sort;
+}

@@ -1,0 +1,27 @@
+{
+    "students": [{
+            "name": "Peter",
+            "roll_no": "1023",
+            "section": "A",
+            "mark_1": "78",
+            "mark_2": "89",
+            "mark_3": "66"
+        },
+        {
+            "name": "Lois",
+            "roll_no": "1024",
+            "section": "B",
+            "mark_1": "100",
+            "mark_2": "98",
+            "mark_3": "92"
+        },
+        {
+            "name": "George",
+            "roll_no": "1025",
+            "section": "B",
+            "mark_1": "69",
+            "mark_2": "79",
+            "mark_3": "78"
+        }
+    ]
+}

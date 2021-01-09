@@ -1,0 +1,4 @@
+.#{$fa-css-prefix}-paste:before,
+.#{$fa-css-prefix}-clipboard:before {
+  content: $fa-var-clipboard;
+}
